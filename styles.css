@@ -456,6 +456,72 @@ nav {
   font-weight: 500;
   color: var(--text-light);
 }
+/* Profile Page Styles */
+.profile-page {
+  margin-top: auto;
+  margin-left: 4cm;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  
+}
+
+/* Header Section */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-header h3 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.profile-options {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Content Section with Left-Aligned Layout */
+.profile-content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid #ff374f;
+}
+
+/* Profile Information */
+.profile-info {
+  font-size: 18px;
+  color: #333;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.profile-info p {
+  margin: 10px 0;
+}
+
+.profile-info p strong {
+  font-weight: bold;
+  color: #666;
+}
+
+
 
 .footer {
   background-color: var(--secondary-color);
